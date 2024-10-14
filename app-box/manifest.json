@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "App Box",
+    "version": "1.0",
+    "description": "App Box",
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
